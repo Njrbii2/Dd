@@ -15,37 +15,29 @@ Can you please try again..!""",
 
 # PM WELCOME MESSAGE (HOME A, B, C, D...)
 HOME = {
-    "HomeA" : "Hey {}..!!\n"
-"Welcome to {}.!\n\n"
+    "HomeA" : "مرحبا {}..!!\n"
+"اهلا وسهلا بك في بوت 🤎 {}.!\n\n"
 
-"With this tool, you can easily convert images to PDF, compress PDF files, split , merge, encrypt or decrypt PDFs, rotate PDF pages, and much more.\n\n"
+"مرحبا بك في بوت بي دي اف المتكامل\n\n"
 
-
-
-
-
-
-"Simply send me a PDF/IMAGE and it will perform the requested action. for help select '⚠️ HELP ⚠️' at any time.the PDF bot is here to make your life easier..\n\n"
-
-
-"Try it out now and see how it can help you with all of your PDF needs!",
+"جربه الآن وشاهد كيف يمكن أن يساعدك في تلبية جميع احتياجات PDF الخاصة بك!‌‌!",
     "HomeACB" : {
-        "⚙️ SETTINGS ⚙️" : "Home|B",
-        "🌍 LANGUAGE 🌍" : "set|lang",
-        "⚠️ HELP ⚠️" : "Home|C",
-        "📢 CHANNEL 📢" : f"{str(settings.OWNED_CHANNEL)}",
+        "⚙️ الاعدادات ⚙️" : "Home|B",
+        "🌍 اللغة 🌍" : "set|lang",
+        "⚠️ المساعدة ⚠️" : "Home|C",
+        "📢 القناة 📢" : f"{str(settings.OWNED_CHANNEL)}",
         "🌟 SOURCE CODE 🌟" : f"{str(settings.SOURCE_CODE)}",
-        "➕ ADD IN GROUP ➕" : "https://t.me/{}?startgroup=True"
+        "➕ اضفني في الكروب ➕" : "https://t.me/{}?startgroup=True"
     },
     "HomeAdminCB" : {
-        "⚙️ SETTINGS ⚙️" : "Home|B",
-        "🌍 LANGUAGE 🌍" : "set|lang",
-        "⚠️ HELP ⚠️" : "Home|C",
-        "📢 CHANNEL 📢" : f"{str(settings.OWNED_CHANNEL)}",
+        "⚙️ الاعدادات ⚙️" : "Home|B",
+        "🌍 اللغة 🌍" : "set|lang",
+        "⚠️ مساعدة ⚠️" : "Home|C",
+        "📢 القناة 📢" : f"{str(settings.OWNED_CHANNEL)}",
         "🌟 SOURCE CODE 🌟" : f"{str(settings.SOURCE_CODE)}",
         "🗽 STATUS 🗽" : f"status|home",
-        "➕ ADD IN GROUP ➕" : "https://t.me/{}?startgroup=True",
-        "🚶 CLOSE 🚶" : "close|mee"
+        "➕ اضفني في الكروب ➕" : "https://t.me/{}?startgroup=True",
+        "🚶 اغلاق 🚶" : "close|mee"
     },
     "HomeB" : """SETTINGS PAGE ⚙️
 
@@ -61,8 +53,8 @@ CAPTION         : {}
 FILE NAME      : {}""",
     "HomeBCB" : {
         "📍 THUMB 📍" : "set|thumb",
-        "📈 NAME 📈" : "set|fname",
-        "💩 API 💩" : "set|api",
+        "📈 الاسم 📈" : "set|fname",
+        "💩 اي بي أي 💩" : "set|api",
         "📅 CAPTION 📅" : "set|capt",
         "« BACK TO HOME «" : "Home|B2A"
     },
@@ -101,11 +93,11 @@ FILE NAME      : {}""",
 HomeG = {
     "HomeA" : HOME['HomeA'],
     "HomeACB" : {
-        "🌍 LANGUAGE 🌍" : "set|lang",
-        "🛡️ HELP 🛡️": "Home|C",
-        "📢 CHANNEL 📢" : f"{str(settings.OWNED_CHANNEL)}",
+        "🌍 اللغة 🌍" : "set|lang",
+        "🛡️ مساعدة 🛡️": "Home|C",
+        "📢 القناة 📢" : f"{str(settings.OWNED_CHANNEL)}",
         "🌟 SOURCE CODE 🌟": f"{settings.SOURCE_CODE}",
-        "🚶 CLOSE 🚶" : "close|mee",
+        "🚶 اغلاق 🚶" : "close|mee",
     }
 }
 
@@ -113,7 +105,7 @@ SETTINGS = {
     "lang" : "Now, Select any language..",
     "default" : ["DEFAULT ❌", "CUSTOM ✅"],
     "cant" : "This feature cannot be used ❌",
-    "wait" : { "Waiting.. 🥱" : "nabilanavab" },
+    "wait" : { "انتظر.. 🥱" : "nabilanavab" },
     "feedbtn" : { "Report any bugs you find!" : settings.REPORT },
     "chgLang" : {"SETTING ⚙️ » CHANGE LANG 🌐" : "nabilanavab"},
     "askApi" : "\n\nOpen the **Below** link and Send me the secret code:",
@@ -188,15 +180,15 @@ BOT_COMMAND = {
 
 STATUS_MSG = {
     "_HOME" : {
-        "📊 ↓ SERVER ↓ 📊" : "nabilanavab",
-        "📶 STORAGE 📶" : "status|server",
-        "🥥 DATABASE 🥥" : "status|db",
+        "📊 ↓ السيرفر ↓ 📊" : "nabilanavab",
+        "📶 السرعة 📶" : "status|server",
+        "🥥 التخزين 🥥" : "status|db",
         "🌝 ↓ GET LIST ↓ 🌝": "nabilanavab",
-        "💎 ADMIN 💎" : "status|admin",
-        "👤 USERS 👤" : "status|users",
+        "💎 الادمنية 💎" : "status|admin",
+        "👤 المستخدمين 👤" : "status|users",
         "« BACK «" : "Home|A"
     },
-    "DB" : """📂 DATABASE :
+    "DB" : """📂 القاعدة بيانات :
 
 **◍ Database Users :** `{}` 📍
 **◍ Database Chats :** `{}` 📍""",
@@ -247,24 +239,25 @@ Due To The Huge Traffic Only **Channel Members** Can Use this Bot 🚶
 
 This Means That You Need To **Join** The Below Mentioned Channel for Using Me!
 
-Hit on `"♻️retry♻️"` after joining.. 😅""",
+Hit on `"♻️ترسيت♻️"` after joining.. 😅""",
     "ForceCB" : {
         "🌟 JOIN CHANNEL 🌟" : "{0}",
-        "♻️ Refresh ♻️" : "refresh{1}"
+        "♻️ ترسيت ♻️" : "refresh{1}"
     },
 }
 
 checkPdf = {
     "pg" : "`Number of Pages: •{}•` 🌟",
-    "pdf" : """`What should I do with this file.?`
+    "pdf" : """` ماذا عليه ان افعل بهذا الملف ؟ 🙂🤎
+BY :- @SBB_B
 
-File Name : `{}`
-File Size : `{}`""",
+اسم الملف : `{}`
+حجم الملف المقدر : `{}`""",
     "pdfCB1" : {
         "⭐ META£ATA ⭐" : "metaData",
         "🗳️ PREVIEW 🗳️" : "preview",
-        "🖼️ IMAGES 🖼️" : "pdf|img",
-        "✏️ TEXT ✏️" : "pdf|txt",
+        "🖼️ تحويل صور 🖼️" : "pdf|img",
+        " ✏️" : "pdf|txt",
         "🔐 ENCRYPT 🔐" : "work|encrypt",
         "🔒 DECRYPT 🔓" : "work|decrypt",
         "🗜️ COMPRESS 🗜️" : "close|dev",
@@ -290,7 +283,7 @@ File Size : `{}`""",
         "🎨 DRAW PDF 🎨" : "draw",
         "😈 CODEC 😈" : "close|dev",
         "💦 WATERMARK 💦" : "pdf|wa",
-        "« 🏴‍☠️ BACK 🏴‍☠️ «" : "pdf1",
+        "« 🏴‍☠️ رجوع 🏴‍☠️ «" : "pdf1",
         "🚫 CLOSE 🚫" : "close|all"
     },
     "error" : """__I can't do anything with this file.__ 😏
@@ -308,15 +301,15 @@ File Size: `{}`""",
 }
 
 PROGRESS = {
-    "progress" : """\n**Done ✅ : **{0}/{1}
-**Speed 🚀:** {2}/s
-**Estimated Time ⏳:** {3}""",
-    "workInP" : "WORK IN PROGRESS.. 🙇",
-    "upFile" : "`Started Uploading..`📤",
-    "refresh" : { "♻️ Refresh ♻️" : "{}" },
+    "progress" : """\n**اكتمل ✅ : **{0}/{1}
+**السرعة 🚀:** {2}/s
+**الوقت المقدر ⏳:** {3}""",
+    "workInP" : "اعمال جارية.. 🙇",
+    "upFile" : "`بدء التحميل.`📤",
+    "refresh" : { "♻️ تريست ♻️" : "{}" },
     "dlFile" : "`Downloading your file..` 📥",
     "dlImage" : "`Downloading your Image..⏳`",
-    "upFileCB" : {"📤 .. UPLOADING.. 📤" : "nabilanavab"},
+    "upFileCB" : {"📤 .. بدء التحميل.. 📤" : "nabilanavab"},
     "takeTime" : """```⚙️ Work in Progress..`
 `It might take some time..```💛""",
     "cbPRO_D" : ["📤 DOWNLOAD: {:.2f}% 📤", "🎯 CANCEL 🎯"],
@@ -336,7 +329,7 @@ GENERATE = {
 document = {
     "reply" : checkPdf['pdf'],
     "upFile" : PROGRESS['upFile'],
-    "process" : "⚙️ Processing..",
+    "process" : "⚙️ المعالجة..",
     "replyCB" : checkPdf['pdfCB1'],
     "inWork" : PROGRESS['workInP'],
     "download" : PROGRESS['dlFile'],
@@ -414,7 +407,7 @@ Now, Enter the range (start:end) :__
     "error_7" : "`Something went Wrong..`😅",
     "error_8" : "`Enter Numbers less than {}..`😏",
     "error_9" : "`1st Check Number of pages` 😏",
-    "upload" : "⚙️ `Started Uploading..` 📤"
+    "upload" : "⚙️ `بدء التحميل..` 📤"
 }
 
 pdf2IMG = {
@@ -424,20 +417,20 @@ pdf2IMG = {
     "download" : PROGRESS['dlFile'],
     "toImage" : {
         "⚙️ PDF » IMAGES ↓" : "nabilanavab",
-        "🖼 IMG 🖼" : "pdf|img|img",
-        "📂 DOC 📂" : "pdf|img|doc",
-        "🤐 ZIP 🤐" : "pdf|img|zip",
-        "🎯 TAR 🎯" : "pdf|img|tar",
+        "🖼 تحويل صور 🖼" : "pdf|img|img",
+        "📂 تحويل ملفات 📂" : "pdf|img|doc",
+        "🤐 تحويل ملفات ضغط 🤐" : "pdf|img|zip",
+        "🎯 بصيغة tar 🎯" : "pdf|img|tar",
         "« BACK «" : "pdf1" 
     },
     "imgRange" : {
         "⚙️ PDF » IMAGES » {} ↓" : "nabilanavab",
-        "🙄 ALL 🙄" : "p2img|{}A",
-        "🤧 RANGE 🤧" : "p2img|{}R",
-        "🌝 PAGES 🌝" : "p2img|{}S",
+        "🙄 جميع الصور 🙄" : "p2img|{}A",
+        "🤧 صور محددة 🤧" : "p2img|{}R",
+        "🌝  صور محددة مفصولة 🌝" : "p2img|{}S",
         "« BACK «" : "pdf|img"
     },
-    "over" : "`5 attempt over.. Process canceled..`😏",
+    "over" : "`5 attempt over.. تم الغاء العملية بنجاح ،..`✅",
     "pyromodASK_1" : """__Pdf - Img›Doc » Pages:
 Now, Enter the range (start:end) :__
 
@@ -446,7 +439,7 @@ Now, Enter the range (start:end) :__
 Now, Enter the Page Numbers seperated by__ (,) :
 
 /exit __to cancel__""",
-    "exit" : "`Process Canceled..` 😏",
+    "exit" : "`تم الغاء العملية بنجاح..` ✅",
     "error_1" : "`Syntax Error: justNeedStartAndEnd `🚶",
     "error_2" : "`Syntax Error: errorInEndingPageNumber `🚶",
     "error_3" : "`Syntax Error: errorInStartingPageNumber `🚶",
@@ -457,15 +450,15 @@ Now, Enter the Page Numbers seperated by__ (,) :
     "error_8" : "`PDF only have {} pages` 💩",
     "error_9" : "`1st Check Number of pages` 😏",
     "error_10" : "__Due to Some restrictions Bot Sends Only 50 pages as ZIP..__😅",
-    "total" : "`Total pages: {}..⏳`",
-    "upload" : "`Uploading: {}/{} pages.. 🐬`",
+    "total" : "`عدد الصفحات: {}..⏳`",
+    "upload" : "`الرفع: {}/{} عدد الصفحات.. 🐬`",
     "current" : "`Converted: {}/{} pages.. 🤞`",
-    "complete" : "`Uploading Completed.. `🏌️",
+    "complete" : "` اكتمل التحميل.. `🏌️",
     "canceledAT" : "`Canceled at {}/{} pages..` 🙄",
     "cbAns" : "⚙️ okDA, Canceling.. ",
     "cancelCB" : {"💤 CANCEL 💤" : "close|P2I"},     # EDITABLE: ❌
-    "canceledCB" : {"🍄 CANCELLED 🍄" : "close|P2IDONE"},
-    "completed" : {"😎 COMPLETED 😎" : "close|P2ICOMP"}
+    "canceledCB" : {"🍄 الغاء 🍄" : "close|P2IDONE"},
+    "completed" : {"😎 مكتمل 😎" : "close|P2ICOMP"}
 }
 
 merge = {
@@ -505,7 +498,7 @@ preview = {
     "__" : "PDF pages: {}\n\n",
     "total" : "`Total pages: {}..` 🤌",
     "album" : "`Preparing an Album..` 🤹",
-    "upload" : f"`Uploading: preview pages.. 🐬`"
+    "upload" : f"`الرفع: preview الصفحات.. 🐬`"
 }
 
 stamp = {
@@ -667,7 +660,7 @@ URL = {
 ERROR: `{}`
 
 NB: In Groups, Bots Can Only fetch documents Send After Joining Group =)""",
-    "done" : "```Almost Done.. ✅\nNow, Started Uploading.. 📤```",
+    "done" : "```Almost Done.. ✅\nNow, Started التحميل.. 📤```",
     "_error_" : "send me any url or direct telegram pdf links",
     "openCB" : {"Open In Browser" : "{}"},
     "_error" : "`Some Thing Went Wrong =(`\n\n`{}`",
@@ -692,7 +685,7 @@ getFILE = {
     "inWork" : PROGRESS['workInP'],
     "big" : "Send PDF url less than {}mb",
     "dl" : {"📥 ..DOWNLOADING.. 📥" : "nabilanavab"},
-    "up" : {"📤 ..UPLOADING..  📤" : "nabilanavab"},
+    "up" : {"📤 ..بدء التحميل..  📤" : "nabilanavab"},
     "complete" : {"😎 COMPLETED 😎" : f"{str(settings.SOURCE_CODE)}"}
 }
 
@@ -719,7 +712,7 @@ wa = {
     "type" : {
         "⚙️ PDF » WATERMARK ↓" : "nabilanavab",
         "💬 TEXT 💬" : "pdf|wa|txt",
-        "🖼 IMAGE 🖼" : "close|dev",
+        "🖼 صورة 🖼" : "close|dev",
         "📎 PDF 📎" : "close|dev",
         "« BACK «" : "pdf2"
     },
@@ -787,7 +780,7 @@ comb = {
 
 inline_query = {
     "capt" : "SET LANGUAGE ⚙️",
-    "des" : "By: @nabilanavab ❤",
+    "des" : "By: @SBB_B ❤",
     "TOP" : { "Now, Select Language ⮷" : "nabilanavab" },
 }
 
